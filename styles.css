@@ -1,0 +1,251 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    outline: 0px;
+}
+
+body
+{
+    font-family: sans-serif;
+    font-size: 18px;
+    background-color: rgba(7,7,7,1);
+    background-attachment: fixed;
+    max-width: 1080px;
+    margin: auto;
+    padding: 0px;
+}
+
+#Title
+{
+    background-color: #00000f;
+    color: #E0E8f0;
+}
+
+#Content
+{
+    background-color: #000;
+    background-color: rgba(7,7,7,.95);
+    color: white;
+    padding: 40px;
+    margin: 0px;
+}
+
+h1
+{
+    font-size: 72px;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    border-bottom-style: solid;
+	border-bottom-color: #000;
+	border-bottom-width: 4px;
+}
+
+h2
+{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: normal;
+    text-align: left;
+    padding: 0px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+a
+{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    color: cyan;
+}
+
+#Links
+{
+    display: flex;
+    width: 100%;
+}
+
+#FirstMega
+{
+    margin-top: 0px;
+}
+
+.Link
+{
+    flex-basis: 100%;
+    transition: 0.25s;
+    transition-timing-function: linear;
+    background-color: #00000f;
+    color: #E0E8F0;
+    padding: 4px;
+    text-align: center;
+}
+
+a.Link:hover
+{
+    flex-basis: 150%;
+    background-color:#170037;
+}
+
+a.MegaLink
+{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    line-height: 80px;
+    text-decoration: none;
+    background-color: #00000f;
+    color: #E0E8F0;
+    text-align: center;
+    font-size: 40px;
+    transition: 0.25s;
+    transition-timing-function: linear;
+    margin-top: 40px;
+}
+
+a.MegaLink:hover
+{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: #E0E8F0;
+    background-color: #170037;
+    text-align: center;
+    margin-top: 40px;
+}
+
+ul
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+ul li
+{
+    margin-left: 20px;
+}
+
+img 
+{
+    width: 100%;
+}
+
+.ImageLink
+{
+    display: block;
+}
+
+.Contact
+{
+    white-space: pre-wrap;
+}
+
+#Current
+{
+    background-color: #170037;
+    color: #E0E8F0;
+}
+
+h2#First
+{
+    margin-top: 0px;
+}
+
+#right
+{
+    display: block;
+    float: right;
+    width: 48%;
+}
+#left
+{
+    display: block;
+    width: 50%;
+    float: left;
+}
+
+a.Caption
+{
+  display: inline;
+}
+
+
+a#mail
+{
+  display: inline;
+}
+
+img#me
+{
+    display: block;
+    width: 50%;
+}
+
+.Desc
+{
+    margin-bottom: 40px;
+}
+
+.slidesjs-previous:hover
+{
+	opacity: 0.5;
+	transition-property: opacity;
+	transition-duration: 0.25s;
+}
+
+.slidesjs-next:hover
+{
+	opacity: 0.5;
+	transition-property: opacity;
+	transition-duration: 0.25s;
+}
+  		
+#controls
+{
+	max-width: 100%;
+	margin-bottom: 0.5em;
+}
+   		
+#next
+{
+	float:right;
+	color: #E0E8F0;
+}
+   	
+#slides
+{
+	display: none;
+	color: #E0E8F0;
+}    
+        
+.slidesjs-previous
+{
+	float: left;
+	color: #E0E8F0;
+	font-size: 40px;
+}
+        
+.slidesjs-next
+{
+	float:right;
+	color: #E0E8F0;
+	font-size: 40px;
+}
+
+
+@media screen and (max-width: 480px)
+{
+	#Content { padding-left: 0px; padding-right: 0px; }
+	
+	body { font-size: 18px; }
+	h1   { font-size: 56px; }
+	h2   { font-size: 28px; }
+	a    { font-size: 18px; }
+	
+	#Links { display: block; }
+}
